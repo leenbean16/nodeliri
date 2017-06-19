@@ -1,0 +1,30 @@
+{
+  "name": "linashamoon",
+  "version": "1.0.0",
+  "description": "Language Interpretation and Recognition Interface",
+  "main": "liri.js",
+  "scripts": {
+    "test": "liri"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leenbean16/liribot.git"
+  },
+  "keywords": [
+    "liribot"
+  ],
+  "author": "Lina Shamoon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leenbean16/liribot/issues"
+  },
+  "homepage": "https://github.com/leenbean16/liribot#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "inquirer": "^3.1.1",
+    "moment": "^2.18.1",
+    "node-spotify-api": "^1.0.5",
+    "request": "^2.81.0",
+    "twitter": "^1.7.1"
+  }
+}
