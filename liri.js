@@ -113,7 +113,7 @@ function getSongs() {
                 return console.log(err);
                 console.log('|========== Error! ==========|');
             }
-            console.log("It is ".blue + moment().format("MMM Do YYYY, hh:mm:ss a").bgYellow);
+            console.log("It is ".blue + moment().format("MMM Do YYYY, hh:mm:ss a").bgCyan);
             console.log('Artists: '.blue, data.tracks.items[0].album.artists[0].name);
             console.log('Name: '.blue, data.tracks.items[0].album.name);
             console.log('Preview Link: '.blue, data.tracks.items[0].album.preview_url);
@@ -133,7 +133,7 @@ function getMovies() {
         request(queryURL, function(error, response, body) {
             // If the request was successful...
             if (!error && response.statusCode === 200) {
-            	console.log("It is ".yellow + moment().format("MMM Do YYYY, hh:mm:ss a").bgBlue);
+            	console.log("It is " + moment().format("MMM Do YYYY, hh:mm:ss a").bgCyan);
                 console.log('Title: '.yellow, JSON.parse(body).Title);
                 console.log('Release year: '.yellow, JSON.parse(body).Year);
                 console.log('Rating: '.yellow, JSON.parse(body).Ratings[0].Value);
