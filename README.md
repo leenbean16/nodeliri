@@ -1,4 +1,4 @@
-# Week 10 (LIRI Bot)
+# LIRI Bot
 
 ### Overview
 
